@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+* { 
+padding:0;
+margin:0;}
+
+#bien{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 2.2em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    border-bottom-style:solid;
+    border-bottom-color:#383028;
+    cursor: default;
+    transition:  all 1s;
+}
+#resto{
+    background-color: #D8D8D8;
+    position: absolute;   
+    width: 100%;
+    height: 91.5%;
+    top: 8.4%;
+    overflow-y: auto;
+}
+
+.file{
+    position: relative;
+    margin: 7% 2% 1% 28%;
+    padding: 10px;
+    width: 44%;
+    background-color: #00BC8B;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+.file:hover{
+    
+    color: #CCD0CF;    
+    background-color: #03B183;
+    
+}
+
+.btn_enviar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 1.2em; 
+    transition:  all 1s;
+    
+    
+}
+
+img{
+     border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+input#btn{
+    border: none;
+    outline: none;
+    background-color: rgba(0,199,146,0.4);
+background: -moz-linear-gradient(-45deg, rgba(0,199,146,0.4) 0%, rgba(227,227,227,0.4) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,199,146,0.4)), color-stop(100%, rgba(227,227,227,0.4)));
+background: -webkit-linear-gradient(-45deg, rgba(0,199,146,1) 0%, rgba(227,227,227,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(0,199,146,1) 0%, rgba(227,227,227,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(0,199,146,0.8) 0%, rgba(227,227,227,1) 100%);
+background: linear-gradient(135deg, rgba(0,199,146,0.8) 0%, rgba(227,227,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c792', endColorstr='#e3e3e3', GradientType=1 );
+    position: relative;
+    width: 46%;
+    margin: 3% 0% 2% 28%;
+    padding: 30px 0px 30px 0px;    
+    font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    border-radius: 50%;
+    cursor: pointer; 
+    transition:  all 1s;
+        
+}
+#btn:hover{
+    border: 3px dashed #000000;
+}
+#atra{
+     background-image: url(../images/atras1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    width: 3%;
+    height: 75%;
+    left: 80%;
+    top: 5%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:  all 1s;
+    
+}
+
+#atra:hover{
+    background-image: url(../images/atras1.png);
+    
+}
+
+/***************************************adaptable******************************/
+@media screen and (max-width:850px){
+   
+    
+    #atra{
+     background-image: url(../images/atras1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: 75%;
+    left: 90%;
+    top: 5%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:  all 1s;
+    
+}
+    
+  #btn{
+  background-color: red;
+      margin: 28% 0% 2% 1%;
+      border-radius: 0%;
+}
+    
+    .texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 1em;
+     transition:  all 1s;
+    
+}
+    
+ input#btn{
+   
+    position: relative;
+    width: 46%;
+    margin: 3% 0% 2% 28%;
+    padding: 30px 0px 30px 0px;    
+    font-family: 'Comic Sans MS';
+    font-size: 1em;
+    border-radius: 8%;
+    cursor: pointer; 
+     transition:  all 1s;
+        
+}
+}
+
+@media screen and (max-width:700px){
+    
+    #bien{
+    font-size: 1.7em;
+    transition:  all 1s;
+       
+    }
+        .texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 0.8em;
+     transition:  all 1s;
+    
+}
+     input#btn{
+   
+    position: relative;
+    width: 46%;
+    margin: 3% 0% 2% 28%;
+    padding: 30px 0px 30px 0px;    
+    font-family: 'Comic Sans MS';
+    font-size: 0.8em;
+    border-radius: 10%;
+    cursor: pointer; 
+     transition:  all 1s;
+        
+}
+}
+
+@media screen and (max-width:600px){
+    
+    #bien{
+       
+     font-size: 1.5em;
+    transition:  all 1s;
+    }
+     .texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 0.6em;
+     transition:  all 1s;
+    
+}
+}
+
+@media screen and (max-width:450px){
+    
+    #bien{    
+     font-size: 1.3em;
+     text-align: left;
+    transition:  all 1s;
+        
+    }
+     .texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 0.6em;
+     transition:  all 1s;
+    
+}
+       #atra{
+     background-image: url(../images/atras1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    width: 8%;
+    height: 75%;
+    left: 87%;
+    top: 5%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:  all 1s;
+    
+}
+     input#btn{
+   
+    position: relative;
+    width: 46%;
+    margin: 3% 0% 2% 28%;
+    padding: 30px 0px 30px 0px;    
+    font-family: 'Comic Sans MS';
+    font-size: 0.5em;
+    border-radius: 25%;
+    cursor: pointer; 
+    transition:  all 1s;
+        
+}
+}
+

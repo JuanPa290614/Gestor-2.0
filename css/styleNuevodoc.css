@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+* { 
+padding:0;
+margin:0;}
+
+#til{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 1.4em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    height: 8%;
+    border-bottom-style:solid;
+    border-bottom-color:#383028;
+    cursor: default;
+}
+
+#rest{
+     background-color: #D8D8D8;
+    position: absolute;
+    width: 100%;
+    height: 91.2%;
+    top: 8%;
+}
+
+
+#file{
+    position: relative;
+    margin: 5% 2% 2.5% 30%;
+    padding: 10px;
+    width: 180px;
+    background-color: #00BC8B;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+#file:hover{
+    
+    color: #CCD0CF;    
+    background-color: #03B183;
+    
+}
+
+#btn_enviar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#texto{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: 0.9em;   
+}
+
+#asun{
+   font-size:1.1em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 33%;
+    left: 30%;
+    padding: 1%;
+    top: 20%;
+     border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    outline: none;
+}
+
+#tipodoc{
+   font-size:1.1em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 33%;
+    left: 30%;
+    top: 32%;
+    padding: 1%;
+   border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    outline: none;
+     transition: all 1s;
+}
+
+#dep{
+    font-size:1.1em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 33%;
+    left: 30%;
+    top: 44%;
+    padding: 1%;
+   border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    border-radius: 0px;
+    outline: none;
+     transition: all 1s;
+}
+
+#deta{
+    
+   font-size:1.1em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 33%;
+    left: 30%;
+    top: 56%;
+    padding: 1%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    outline: none;
+     transition: all 1s;
+    
+}
+
+#acep{    
+    position: absolute;
+    top: 74%;
+    left: 30%;
+    color: white;
+    font-family: 'Comic Sans MS';
+    padding: 15px 5px 15px 5px;
+    width: 33%;
+    border: none;
+    outline: none;
+    background-color: #00BC8B;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    cursor: pointer; 
+     transition: all 1s;
+}
+
+#textA a{
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    position: absolute;
+    left: 6%;
+    top: 22%;
+    color: black;
+    cursor: default;
+     transition: all 1s;
+}
+
+#textTD a{
+     font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    color: black;
+    text-decoration: none;
+    cursor: default;
+     transition: all 1s;
+}
+#textD a{
+    
+     font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    position: absolute;
+    left: 5%;
+    top: 46%;
+    color: black;
+    text-decoration: none;
+    cursor: default;
+     transition: all 1s;
+}
+    
+#detale a{
+     font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+    position: absolute;
+    left: 5%;
+    top: 58%;
+    color: black;
+    text-decoration: none;
+    cursor: default;
+    transition: all 1s;
+}
+
+#cancelar a{
+    color: transparent;
+    background-image: url(../images/005-cerrar-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    width: 8%;
+    height: 12%;
+    left: 80%;
+    top: 7%;    
+    cursor: pointer;
+    transition:  all 1s ease-in-out;
+}
+
+#cancelar a:hover{
+    background-image: url(../images/005-cerrar-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition:  all 1s ease-in-out;
+    
+}
+
+
+
+

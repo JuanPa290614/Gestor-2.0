@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+    <link rel="shortcut icon"  type="imagen/icon" href="images/logo1.ico"/>
+    <title>Welcome to Your Files</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    
+    <script src="scripts/jquery.js"></script>
+	<script>
+        
+   $(window).load(function () {
+       
+       $('#contenedor').hide();
+       
+   });
+    
+    </script>
+    </head>    
+    <body>
+      <div class="contenedor">
+       <div id="bien">Welcome to Your Files</div>
+       <div id="loginP"> 
+             <div id="Login">       
+              <p id="til">Login</p>
+              
+              
+        <form method="post" action="php/login.php">        
+            <input type="text" name="txtusuario" id="user" placeholder="&#128582; USERNAME" required />
+            
+            <input type="password" name="txtpass" id="pass" placeholder="&#128272; PASSWORD" required />
+            
+            
+            
+            <input type="submit" name="submit" id="ingresar" value="INGRESAR"  />
+            
+        </form>
+           </div>
+        </div>
+        
+        </div>
+        
+        <!--------------cargador----------------->
+        <div id="contenedor">
+  <div class="loader" id="loader"></div>
+</div>
+       
+    </body>
+</html>

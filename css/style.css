@@ -1,0 +1,409 @@
+@charset "utf-8";
+
+* { 
+padding:0;
+margin:0;
+box-sizing: border-box;}
+
+
+ul{
+    list-style: none;
+}
+.contenedor{
+    max-width: 100%;
+    min-width: 100%;   
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+#bien{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 2.2em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    border-bottom-style:solid;
+    border-bottom-color:#383028;
+    transition: all 2s;
+    box-sizing: border-box;
+    
+}
+
+#loginP{
+    background-color: #D8D8D8;
+    position: absolute;   
+    width: 100%;
+    height: 91.5%;
+    top: 8%; 
+    box-sizing: border-box;
+}
+
+#Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    left: 27.5%;
+    top: 24%;  
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     transition: all 2s;
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+}
+
+#til{
+   font-size:2.7em;
+   font-family: 'Comic Sans MS';
+    text-align: center;
+    color: white;
+    
+}
+
+#user{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 66%;
+    left: 20%;
+    top: 30%;
+     border-style: outset;
+    border-color: #D8D8D8; 
+    transition: all 1s;
+       
+}
+
+#pass{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 66%;
+    left: 20%;
+    top: 50%;
+    border-style: outset;
+    border-color: #D8D8D8;
+    transition: all 1s;
+       
+       
+}
+
+#ingresar{
+    background-color: transparent;
+    font-family: 'Comic Sans MS';
+    font-size: 1em;
+    position: absolute;
+    border: none;
+    width: 19%;
+    height: 9%;/* left: 71%;*/
+    left: 70%;
+    top: 71%;
+    padding: 20px 10px 40px 5px;   
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    box-sizing: border-box;
+}
+
+#ingresar:hover{
+    -webkit-box-shadow: 1px 6px 15px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 6px 15px -2px rgba(0,0,0,0.75);
+box-shadow: 1px 6px 15px -2px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+}
+/*******************adaptable width***************************/
+@media screen and (max-width:1040px){
+    
+ 
+    
+    #ingresar{
+        font-size: 0.8em;
+        transition: all 2s;
+    }
+    #ingresar:hover{       
+        box-shadow: none;       
+}
+    #ingresar:focus{       
+        color: red;
+    
+    
+}
+}
+@media screen and (max-width:880px){
+  
+    #ingresar{
+       width: 100%;
+        left: 0%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:580px){
+    
+ 
+    #Login{
+         transition: all 2s;
+        left: 15%;
+        width: 70%;
+        
+    }  
+    
+}
+@media screen and (max-width:380px){
+    
+  
+    #bien{
+        transition: all 2s;
+        font-size: 1.8em;
+    }
+    
+    
+}
+@media screen and (max-width:325px){
+    
+ 
+    #bien{
+        transition: all 2s;
+        font-size: 1.4em;
+    }
+    
+    #user{
+   font-size:1.2em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 66%;
+    left: 20%;
+    top: 30%;
+     border-style: outset;
+    border-color: #D8D8D8;
+     transition: all 1s;
+       
+}
+
+#pass{
+   font-size:1.2em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 66%;
+    left: 20%;
+    top: 50%;
+    border-style: outset;
+    border-color: #D8D8D8;
+    transition: all 1s;
+       
+}
+    #Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    top: 24%;  
+  
+}
+    
+    
+}
+
+/*******************adaptable heigth***************************/
+@media screen and ( max-height: 560px ){
+    
+#bien{
+   
+   font-size: 2em;
+   
+    
+}
+}
+@media screen and ( max-height: 500px ){
+    
+#bien{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 1.9em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 9.5%;
+   
+}
+     #Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    left: 27.5%;
+    top: 23%;  
+  
+}
+}
+@media screen and ( max-height: 440px ){
+    
+#bien{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 1.6em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+   
+}
+     #Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    left: 27.5%;
+    top: 23%;  
+  
+}
+}
+@media screen and ( max-height: 380px ){
+    
+#bien{
+   
+    color: aliceblue;
+    font-size: 1.4em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+   
+}
+     #Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45%;
+    height: 65%;
+    left: 27.5%;
+    top: 13%;  
+  
+}
+}
+@media screen and ( max-height: 320px ){
+    
+#bien{
+   
+    color: aliceblue;
+    font-size: 1.2em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+   
+}
+     #Login{
+    background-image: url(../images/fondo_login.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45%;
+    height: 75%;
+    left: 27.5%;
+    top: 13%;  
+  
+}
+}
+
+
+/***********************CARGANDO*********************/
+
+
+#contenedor {
+    position: fixed;
+    left: 40%;
+    top: 40%;
+	width:200px;
+    height:200px;
+    z-index: 100000;
+}
+.loader {
+  font-size: 50px;
+  margin: 45% auto;   
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+}
+
+
+    
+
+
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #00BC8B, 2em -2em 0 0em #00BC8B, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 0em #00BC8B;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #00BC8B, 2em -2em 0 0.2em #00BC8B, 3em 0em 0 0em #ffffff, 2em 2em 0 -0.5em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 -0.5em #00BC8B;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #00BC8B, 2em -2em 0 0em #00BC8B, 3em 0em 0 0.2em #ffffff, 2em 2em 0 0em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 -0.5em #00BC8B;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 0.2em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 0.2em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 0.2em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0.2em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 0.2em #ffffff;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #00BC8B, 2em -2em 0 0em #00BC8B, 3em 0em 0 -0.5em #D8D8D8, 2em 2em 0 -0.5em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #D8D8D8, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 0em #00BC8B;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #00BC8B, 2em -2em 0 0.2em #00BC8B, 3em 0em 0 0em #D8D8D8, 2em 2em 0 -0.5em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #D8D8D8, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 -0.5em #00BC8B;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #00BC8B, 2em -2em 0 0em #00BC8B, 3em 0em 0 0.2em #D8D8D8, 2em 2em 0 0em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 -0.5em #D8D8D8, -3em 0em 0 -0.5em #00BC8B, -2em -2em 0 -0.5em #00BC8B;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #D8D8D8, 2em -2em 0 -0.5em #D8D8D8, 3em 0em 0 0em #D8D8D8, 2em 2em 0 0.2em #D8D8D8, 0em 3em 0 0em #D8D8D8, -2em 2em 0 -0.5em #D8D8D8, -3em 0em 0 -0.5em #D8D8D8, -2em -2em 0 -0.5em #D8D8D8;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #D8D8D8, 2em -2em 0 -0.5em #D8D8D8, 3em 0em 0 -0.5em #D8D8D8, 2em 2em 0 0em #D8D8D8, 0em 3em 0 0.2em #D8D8D8, -2em 2em 0 0em #D8D8D8, -3em 0em 0 -0.5em #D8D8D8, -2em -2em 0 -0.5em #D8D8D8;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #D8D8D8, 2em -2em 0 -0.5em #D8D8D8, 3em 0em 0 -0.5em #D8D8D8, 2em 2em 0 -0.5em #D8D8D8, 0em 3em 0 0em #D8D8D8, -2em 2em 0 0.2em #D8D8D8, -3em 0em 0 0em #D8D8D8, -2em -2em 0 -0.5em #D8D8D8;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #00BC8B, 2em -2em 0 -0.5em #00BC8B, 3em 0em 0 -0.5em #00BC8B, 2em 2em 0 -0.5em #00BC8B, 0em 3em 0 -0.5em #00BC8B, -2em 2em 0 0em #00BC8B, -3em 0em 0 0.2em #00BC8B, -2em -2em 0 0em #00BC8B;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #D8D8D8, 2em -2em 0 -0.5em #D8D8D8, 3em 0em 0 -0.5em #00BC8B, 2em 2em 0 -0.5em #D8D8D8, 0em 3em 0 -0.5em #D8D8D8, -2em 2em 0 0em #00BC8B, -3em 0em 0 0em #D8D8D8, -2em -2em 0 0.2em #D8D8D8;
+ 
+}
+
+
+
+
+
+
+

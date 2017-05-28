@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+* { 
+padding:0;
+margin:0;}
+
+body{
+    background-color: #D8D8D8;
+}
+
+#bien{
+    background-color: #00BC8B;
+    color: aliceblue;
+    font-size: 2.2em;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    border-bottom-style:solid;
+    border-bottom-color:#383028;    
+}
+
+#modificaU{
+    background-color: #D8D8D8;
+    position: absolute;   
+    width: 100%;
+    height: 91.5%;
+    top: 8.5%;     
+}
+
+
+#textN{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 6%;
+    top: 10%;
+}
+#nom{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 10%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+}
+
+
+#textA{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 51.8%;
+    top: 10%;
+}
+#ape{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 63%;
+    top: 10%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+}
+
+
+#textE{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 7.6%;
+    top: 20%;
+}
+#email{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 20%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+}
+
+
+#textU{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 51.8%;
+    top: 20%;
+}
+#use{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 63%;
+    top: 20%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+}
+
+
+#textP{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 0.9%;
+    top: 30%;
+}
+#pas{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 30%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;   
+    outline: none;
+}
+
+#textPs{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+}
+#pasa{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 63%;
+    top: 30%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+}
+
+
+#textT{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+#tip{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 15%;
+    top: 45%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+#textD{
+   font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    position: absolute;
+    left: 47.5%;
+    top: 45%;
+}
+#dep{
+   font-size:1.5em;
+   font-family: 'Comic Sans MS';
+    position: absolute;
+    width: 30%;
+    left: 63%;
+    top: 45%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px dashed #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+#reg{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 35%;
+    top: 70%;
+    font-family: 'Comic Sans MS';
+    font-size:1.5em;
+    background-color: #00BC8B;
+    color: white;
+    outline: none;
+    border-radius: 62px 62px 62px 62px;
+-moz-border-radius: 62px 62px 62px 62px;
+-webkit-border-radius: 62px 62px 62px 62px;
+
+        
+}
+
+#reg:hover{
+    border: 2px dashed #000000;
+    
+}
+
+#atra{
+    background-image: url(../images/atras.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 94.5%;
+    top: 9%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+#atra:hover{
+    background-image: url(../images/atras1.png);
+}
+
