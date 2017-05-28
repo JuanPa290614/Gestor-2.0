@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.example.pgbuild"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <name>Wellcome to your files</name>
+
+    <description>
+        Una aplicacion especializada en el facil manejo de los documentos
+    </description>
+
+    <author href="http://phonegap.com/blog/" email="danielito@hotmail.com">
+        Mateo Nieto y Alvaro Aguirre
+    </author>
+    <icon src="imges/logo1.ico" />
+    <gap:splash src="imges/logo1.ico" />
+</widget>
